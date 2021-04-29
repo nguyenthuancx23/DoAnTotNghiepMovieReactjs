@@ -1,0 +1,25 @@
+[0813/132452.689:ERROR:process_info.cc(359)] UncheckedAllocate
+[0829/174036.947:ERROR:process_info.cc(359)] UncheckedAllocate
+[0829/174249.581:ERROR:process_info.cc(359)] UncheckedAllocate
+
+[0910/150812.536:ERROR:process_info.cc(359)] UncheckedAllocate
+[0910/150812.536:ERROR:process_info.cc(359)] UncheckedAllocate
+[0910/180556.474:ERROR:process_info.cc(359)] UncheckedAllocate
+[0910/182901.007:ERROR:process_info.cc(359)] UncheckedAllocate
+
+
+[0921/115535.721:ERROR:process_info.cc(359)] UncheckedAllocate
+[0921/154558.844:ERROR:process_info.cc(359)] UncheckedAllocate
+[0922/182716.786:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\Quang\AppData\Local\Google\Chrome\User Data\Crashpad\reports\0288a172-c455-4fe5-a355-8f4d9cb76227.dmp: The process cannot access the file because it is being used by another process. (0x20)
+[0922/203232.318:ERROR:process_info.cc(359)] UncheckedAllocate
+[0922/203232.367:ERROR:process_info.cc(359)] UncheckedAllocate
+[0922/203405.359:ERROR:process_info.cc(359)] UncheckedAllocate
+[0922/203405.406:ERROR:process_info.cc(359)] UncheckedAllocate
+[0926/024101.110:ERROR:process_info.cc(359)] UncheckedAllocate
+[0926/024113.203:ERROR:process_info.cc(359)] UncheckedAllocate
+[0928/020050.608:ERROR:process_info.cc(359)] UncheckedAllocate
+[0928/020050.611:ERROR:crashpad_client_win.cc(513)] CreateProcess: The paging file is too small for this operation to complete. (0x5AF)
+[1001/190331.051:ERROR:process_info.cc(359)] UncheckedAllocate
+[1001/190526.615:ERROR:process_info.cc(359)] UncheckedAllocate
+[1001/190541.767:ERROR:process_info.cc(359)] UncheckedAllocate
+[1001/190709.053:ERROR:process_info.cc(359)] UncheckedAllocate
