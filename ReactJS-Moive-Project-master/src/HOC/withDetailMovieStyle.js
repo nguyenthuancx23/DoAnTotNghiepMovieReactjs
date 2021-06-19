@@ -24,47 +24,6 @@ const WithDetailMovieStyle = (WrappedComponent, sourcePropsName) => {
         <img src={item} key={idx} alt="star" />
       ));
     };
-    // const renderStar = () => {
-    //   let danhGia = props[sourcePropsName].danhGia;
-    //   if (danhGia >= 9.5) {
-    //     return (
-    //       <>
-    //         <img src={star1} alt="star" />
-    //         <img src={star1} alt="star" />
-    //         <img src={star1} alt="star" />
-    //         <img src={star1} alt="star" />
-    //         <img src={star1} alt="star" />
-    //       </>
-    //     );
-    //   } else if (danhGia >= 8) {
-    //     return (
-    //       <>
-    //         <img src={star1} alt="star" />
-    //         <img src={star1} alt="star" />
-    //         <img src={star1} alt="star" />
-    //         <img src={star1} alt="star" />
-    //         <img src={star2} alt="star" />
-    //       </>
-    //     );
-    //   } else if (danhGia > 5) {
-    //     return (
-    //       <>
-    //         <img src={star1} alt="star" />
-    //         <img src={star1} alt="star" />
-    //         <img src={star1} alt="star" />
-    //         <img src={star2} alt="star" />
-    //       </>
-    //     );
-    //   } else {
-    //     return (
-    //       <>
-    //         <img src={star1} alt="star" />
-    //         <img src={star1} alt="star" />
-    //         <img src={star2} alt="star" />
-    //       </>
-    //     );
-    //   }
-    // };
 
     const renderAge = () => {
       let danhGia = props[sourcePropsName].danhGia;

@@ -22,7 +22,7 @@ function ShowTime(props) {
   const { listMovie } = props;
   let myList = [...listMovie];
   // const items = useMemo(() => items, [])
-  const movieArray = chunkArray(myList, 27); // [ [24 items] , [20 items] ]
+  const movieArray = chunkArray(myList, 24); // [ [24 items] , [20 items] ]
   // console.log(movieArray);
   // console.log(props);
   return (

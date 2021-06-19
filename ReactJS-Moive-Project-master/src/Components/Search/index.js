@@ -86,7 +86,7 @@ function Search(props) {
   const handleChange = (e) => {
     e.persist();
 
-    //value là tenPhim, tenCumRap, 1/1/2019, 10:10:00, tùy vào name
+  
     const { name, value, selectedIndex } = e.target;
     const { id } = e.target.childNodes[selectedIndex];
 

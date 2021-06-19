@@ -12,6 +12,8 @@ function CarouselItem(props) {
   ]);
   
   if (!detailMovie) return null;
+
+  
   return (
     <div className="carousel__item">
       <div className="carousel__img">
@@ -37,15 +39,14 @@ function CarouselItem(props) {
   );
 }
 
-
 CarouselItem.propTypes = {
   isHero: PropTypes.bool,
   detailMovie: PropTypes.object.isRequired,
 };
+
 CarouselItem.defaultProps = {
   isHero: false,
 };
-
 const mapDispatchToProps = (dispatch) => {
   return {
     getMovieDetail: (id) => {

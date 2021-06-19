@@ -2,8 +2,8 @@ import React, { useMemo } from "react";
 import { useTogglePost } from "../../context/TogglePostContext";
 
 function BtnViewMore() {
+  
   const { oriPosts, indexShow, showMore, showLess } = useTogglePost();
-
   const renderBtn = useMemo(() => {
     if (indexShow === 0) {
       return (
@@ -31,8 +31,8 @@ function BtnViewMore() {
         </>
       );
     }
-    // eslint-disable-next-line react-hooks/exhaustive-dep
-  }, [indexShow]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [indexShow]); 
 
   return <div className="buttonViewMore__container">{renderBtn}</div>;
 }

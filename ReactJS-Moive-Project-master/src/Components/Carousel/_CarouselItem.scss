@@ -10,7 +10,6 @@
           opacity: 1;
         }
       }
-
       @include RESPONSIVE("768px") {
         display: none;
       }

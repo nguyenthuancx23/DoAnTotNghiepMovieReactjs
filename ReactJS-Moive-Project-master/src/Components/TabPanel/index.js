@@ -9,5 +9,4 @@ TabPanel.propTypes = {
   settings: PropTypes.object.isRequired,
 };
 
-
 export default TabPanel;

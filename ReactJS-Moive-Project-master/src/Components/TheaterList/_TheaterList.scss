@@ -1,7 +1,13 @@
 $max-height: 545px;
 
 .theaterList {
+  
+  .nav-tabs {
+    // background-color: rgba(192, 57, 57, 0.378);
+  }
+  // background: url("../../../public/images/slide-7.png") ;
   &__image {
+    
     width: 50px;
     height: 50px;
     object-fit: cover;
@@ -9,6 +15,7 @@ $max-height: 545px;
 
   //child 1
   &__logos {
+    // background-image: linear-gradient(to top ,rgb(0,0,0) 0%,rgba(0,0,0,0) 100%);
     flex-basis: 92px; //90px +2px cua border
     max-height: $max-height;
     border: 1px solid #ebebec;
@@ -24,6 +31,7 @@ $max-height: 545px;
 
   //child2
   &__details {
+    
     flex-basis: 30%;
     min-width: 30%;
     width: 100%;
@@ -48,6 +56,7 @@ $max-height: 545px;
 
   //child3
   &__movies {
+    // background-image: linear-gradient(to top ,rgb(0,0,0) 0%,rgba(0,0,0,0) 100%);
     flex-grow: 1;
     max-height: $max-height;
     width: calc(100% - 92px - 30%);
