@@ -39,7 +39,7 @@ const postReducer = (state, action) => {
       return { ...initialState };
 
     default:
-      throw new Error("ko xác định dc action");
+      throw new Error("ko xác định được action");
   }
 };
 
@@ -160,7 +160,7 @@ function ModalReview(props) {
                 data-dismiss="modal"
                 to="/login"
               >
-                Đăn nhập
+                Đăng Nhập
               </LinkButton>
             ) : (
               <>

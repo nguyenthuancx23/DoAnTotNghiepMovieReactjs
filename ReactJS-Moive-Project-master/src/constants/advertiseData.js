@@ -1,7 +1,7 @@
 /**
  * fake images for slider in advertise component
  */
-
+ 
 const advertiseData = [
   "/images/slide1.jpg",
   "/images/slide2.jpg",

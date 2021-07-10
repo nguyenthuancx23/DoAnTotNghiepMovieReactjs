@@ -9,6 +9,5 @@ cp index.html 200.html
 
 #Start deploying via Surge
 # Deploy current folder to my kdq-react-movie-app.surge.sh domain
-surge . https://kdq-react-movie-app.surge.sh
-
+surge . https://doan-booking-ticket-movie.surge.sh
 

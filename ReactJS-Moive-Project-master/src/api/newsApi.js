@@ -1,6 +1,7 @@
 import axios from "axios";
 const instance = axios.create({
-  baseURL: "https://5eea03dfb13d0a00164e40ad.mockapi.io/api",
+  // baseURL: "https://5eea03dfb13d0a00164e40ad.mockapi.io/api",
+  baseURL: "https://60d34d9b858b410017b2f6a7.mockapi.io/api"
 });
 
 const newsApi = { 
